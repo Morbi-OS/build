@@ -92,3 +92,7 @@ FRAMEWORKS_BASE_SUBDIRS := \
 #
 FRAMEWORKS_BASE_JAVA_SRC_DIRS := \
 	$(addprefix frameworks/base/,$(FRAMEWORKS_BASE_SUBDIRS))
+
+ifneq ($(AFTERLIFE_BUILD),)
+-include vendor/afterlife/build/core/pathmap.mk
+endif
