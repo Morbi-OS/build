@@ -267,8 +267,9 @@ class EdifyGenerator(object):
   def PrintMorbiOSBanner(self, android_version, build_id, build_date,
                                   security_patch, device):
     self.Print("----------------------------------------------")
-      self.Print("              MorbiOS")
-      self.Print("              from our to you")
+    self.Print("                  Welcome to                  ")
+    self.Print("                  Our Project                 ")
+    self.Print("                 By dotkitXromeo              ")
     self.Print("----------------------------------------------")
     self.Print(" Android version: %s"%(android_version))
     self.Print(" Build id: %s"%(build_id))
